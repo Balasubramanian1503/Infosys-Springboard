@@ -1,3 +1,4 @@
+Quiz - 1:
 Q1 of 6
 A Database Management System is
 ->Collection of programs to access data 
@@ -26,7 +27,23 @@ Which of the following features are provided by DBMS? [Choose any TWO]
 Protect data from system crash
 Authorized access
 
-Protect data from system crash 
-Low cost and run on commodity hardware
-Authorized access 
-Application Dependence on storage mechanism
+Quiz -2 :
+Q1 0f 6 A relational database consists of a collection of
+->Tables.
+Q2 of 6
+A relationship among a set of values in a table is represented by a?
+->Row.
+Q3 0f 6
+The set of permitted values of an attribute is called?
+->Domain.
+Q4 of 6
+The attribute value that is currently unknown is?
+->Null
+Q5 of 6
+Consider the relation SalesMan(SId, SName, Location)
+What is the cardinality of the above relation
+->4
+Q6 of 6
+Consider the relation SalesMan(SId, SName, Location)
+What is the degree of the above relation?
+3 
