@@ -47,3 +47,85 @@ Q6 of 6
 Consider the relation SalesMan(SId, SName, Location)
 What is the degree of the above relation?
 3 
+Quiz -3:
+1)In a relationship between two entities, exactly one instance of the first entity is related to zero or more instances of the second entity. Which of the following symbols in Crows Feet notation represents this relationship?
+->B
+2)In a many to one relationship, the primary key of one entity acts as foreign key on which side?
+->On the side where many relationship is defined
+3)How many tables do a many to many relationship between two entities result in?
+->Three.
+Quiz -4:
+# Database Design Q&A (Club & Training Institute)
+## 🔹 Club Membership Scenario
+### 1. Primary Key for Club Relation
+**Question:**
+Club (ClubId, Name, Location)
+Identify the Primary Key.
+
+**Answer:**
+**ClubId**
+### 2. Primary Key for Member Relation
+**Question:**
+Member (ClubId, MemberId, Name, Address)
+**Answer:**
+**{ClubId, MemberId}** (Composite Key)
+### 3. Foreign Key for Club Relation
+**Question:**
+Identify the Foreign Key for Club relation.
+**Answer:**
+**Foreign key does not exist**
+### 4. Foreign Key for Member Relation
+**Question:**
+Identify the Foreign Key for Member relation.
+**Answer:**
+**ClubId**
+## 🔹 Training Institute Scenario
+
+### 5. Primary Key for Participant
+**Question:**
+Participant (ParticipantId, Name, Address)
+**Answer:**
+**ParticipantId**
+### 6. Primary Key for Assessment
+**Question:**
+Assessment (CourseId, Marks, ParticipantId)
+**Answer:**
+**{CourseId, ParticipantId}** (Composite Key)
+### 7. Primary Key for Course
+**Question:**
+Course (CourseId, Desc, Duration, Prerequisite)
+**Answer:**
+**CourseId**
+### 8. Foreign Key(s) for Participant
+**Question:**
+Identify Foreign Keys.
+**Answer:**
+**Foreign key does not exist**
+### 9. Foreign Key(s) for Assessment
+**Question:**
+Choose any TWO.
+**Answer:**
+* **CourseId**
+* **ParticipantId**
+### 10. Foreign Key for Course
+**Question:**
+Identify the Foreign Key.
+**Answer:**
+**Prerequisite** (Self-referencing foreign key)
+### 11. Candidate Key Decision
+**Question:**
+Email is unique but optional.
+**Answer:**
+**CustomerId is the candidate key as well as the primary key**
+### 12. Transaction Table Design (Choose TWO)
+**Answer:**
+* **CustomerId and GameId present in gaming table can take duplicate values**
+* **CustomerId and GameId are foreign keys in gaming table referencing parent tables**
+### 13. Self-Referencing Requirement
+**Question:**
+Is self-referencing possible?
+**Answer:**
+**False. An attribute can reference the same table (Self Referencing Foreign Key)**
+
+---
+
