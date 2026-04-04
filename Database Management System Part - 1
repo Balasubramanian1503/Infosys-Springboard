@@ -126,6 +126,92 @@ Email is unique but optional.
 Is self-referencing possible?
 **Answer:**
 **False. An attribute can reference the same table (Self Referencing Foreign Key)**
+---
+Quiz -5:
+# 📘 Functional Dependency Quiz
+
+This repository contains answers to a Functional Dependency quiz from DBMS.
 
 ---
 
+## ✅ Q1
+**A functional dependency is a relationship between or among:**
+- ⭕ Entities  
+- ⭕ Tuples  
+- ✅ Attributes  
+- ⭕ Tables  
+## ✅ Q2
+**Which functional dependency types are present? (Choose any TWO)**
+**Answer:**
+- ✅ Full functional dependency  
+- ✅ Partial functional dependency  
+
+## ✅ Q3
+**Which functional dependency types are present? (Choose any TWO)**
+- ✅ Full functional dependency  
+- ✅ Transitive functional dependency  
+## ✅ Q4
+**Find the candidate keys for relation R(A, B, C, D):**
+- ✅ {A}, {C, D}  
+## ✅ Q5
+**A → B also means B → A. True or False?**
+
+- ⭕ True  
+- ✅ False  
+---
+Quiz -6:
+# 📘 DBMS Normalization Quiz
+
+## Q1
+The database design prevents some data from being stored due to ______.
+- ⭕ Deletion anomalies
+- ✅ Insertion anomalies
+- ⭕ Update anomalies
+- ⭕ None of these
+
+## Q2
+A relation is in 2NF if:
+- ⭕ All the values of non-key attributes are dependent fully on the candidate key.
+- ⭕ Any non-key attribute that are dependent on only part of the candidate key should be moved to another relation where the partial key is the actual full key.
+- ⭕ It must be already in the 1NF.
+- ✅ All of the above.
+
+## Q3
+If one attribute is determinant of second, which in turn is determinant of third, (A->B and B->C) then the relation cannot be:
+- ⭕ Well-structured
+- ⭕ 1NF
+- ⭕ 2NF
+- ✅ 3NF
+
+## Q4
+Consider the relation Sale(Date, Customer, Product, Vendor, VendorCity, SalesRep)
+{Date, Customer, Product} is the composite candidate key and the following functional dependencies are also given:
+Vendor -> VendorCity, Product -> Vendor
+What is the highest normal form of the sale relation?
+- ⭕ 2NF
+- ⭕ 3NF
+- ⭕ 0NF
+- ✅ 1NF
+--------
+Quiz -7:
+**Q1:** Which of the following are classifications of SQL?  
+**Answer:** Data Definition Language, Data Manipulation Language  
+
+**Q2:** Maria wants to change the marks of a student in the marks column. Which command should she use?  
+**Answer:** Update  
+
+**Q3:** Command: ALTER (Modifies existing database objects like tables)  
+**Answer:** DDL  
+
+**Q4:** Command: REVOKE (Remove access to database objects from users)  
+**Answer:** DCL  
+
+**Q5:** To save the database changes permanently, which command classification should be used?  
+**Answer:** TCL  
+
+**Q6:** Command: INSERT (Add new student details into table)  
+**Answer:** DML  
+
+**Q7:** Command: TRUNCATE (Empty a table by deleting all rows)  
+**Answer:** DDL  
+----------------
