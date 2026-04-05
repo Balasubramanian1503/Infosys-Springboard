@@ -215,3 +215,112 @@ Quiz -7:
 **Q7:** Command: TRUNCATE (Empty a table by deleting all rows)  
 **Answer:** DDL  
 ----------------
+Quiz-8
+## SQL Data Types Quiz Answers
+
+**Q1:** Which data type can store weight in kg with 1 gram accuracy?  
+**Answer:** NUMBER(6,3)  
+
+**Q2:** Maximum value in NUMERIC(4,2)?  
+**Answer:** 99.99  
+
+**Q3:** Which statements are TRUE?  
+**Answer:**  
+- Scale denotes number of digits allowed after decimal point  
+- SQL performs rounding if value has higher scale than the data type  
+
+**Q4:** Data type for Price (e.g., 200.21)  
+**Answer:** NUMBER(5,2)  
+
+**Q5:** Data type for Meeting_Time  
+**Answer:** TIMESTAMP  
+
+**Q6:** Data type for Profile_Image  
+**Answer:** BLOB  
+
+**Q7:** Data type for Book_Title  
+**Answer:** VARCHAR2(50)  
+
+**Q8:** Data type for Gender (M/F)  
+**Answer:** CHAR(1)  
+
+**Q9:** Data type for PIN_Code (6 digit)  
+**Answer:** NUMBER(6)  
+---------------------------------------
+Quiz-9
+## SQL Advanced Quiz Answers
+
+**Q1:** Values valid for NUMBER(4,1)  
+**Answer:** i, iv and v  
+
+**Q2:** Datatype for max 8000 variable length unicode characters  
+**Answer:** CLOB  
+
+**Q3:** Correct datatype to store age  
+**Answer:** INTEGER  
+
+**Q4:** Number of DML statements (CREATE, UPDATE, TRUNCATE, DELETE, ROLLBACK, REVOKE)  
+**Answer:** 2  
+
+**Q5:** Appropriate datatypes  
+- name → VARCHAR2(50)  
+- dob → DATE  
+- gender → CHAR(1)  
+
+**Q6:** Datatype for recorddate  
+**Answer:** TIMESTAMP  
+
+**Q7:** Datatypes for patientid and photo  
+**Answer:** NUMBER(6), BLOB  
+
+**Q8:** Datatype for avgrating  
+**Answer:** NUMBER(3,2)  
+
+**Q9:** Output of expression  
+**Answer:** True  
+-----------------------------
+Quiz-10:
+Q1 of 1
+Which of the following statement is TRUE regarding CREATE TABLE statement?
+->Attributes allow NULL values unless NOT NULL clause is provided.
+-------------------------------------------------------------------
+Quiz -11:
+## SQL Constraints Quiz Answers
+**Q1:** Referential integrity constraint  
+**Answer:** Customer information must be known before anything is sold to him/her  
+
+**Q2:** TRUE statements  
+**Answer:**  
+- A Unique constraint allows multiple rows to have NULL value  
+- Referential integrity constraint allows NULL value  
+
+**Q3:** CHECK constraint (choose any TWO)  
+**Answer:**  
+- Age of the customer must be greater than 21  
+- Customer must have a residence in an Asian Country  
+
+**Q4:** Constraint defined only at column level  
+**Answer:** NOT NULL  
+-----------------------------------------------
+Quiz-12
+
+
+
+Quiz - Constraints and Create table
+
+  
+14m 45s
+(Submitted)
+Q1 of 3
+What will be the output of the following command?
+->Error will be thrown.
+Q2 of 3
+Consider the creation of the following table: Customer(CustId, AccountNo, CustName) with combination of columns Custid and AccountNo should be UNIQUE. Which one of the following options is CORRECT?
+->Put a table level UNIQUE constraint involving both the columns 
+Q3 of 3
+Which one of the following DDL statements will create a table? Assume table customer is already created with appropriate constraints and data types.
+a.	
+b.	
+c.	
+->a 
+-------------------------
